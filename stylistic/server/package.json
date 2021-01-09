@@ -1,0 +1,26 @@
+{
+  "name": "stylistic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassineZerdani/stylistic.git"
+  },
+  "author": "Yassine Zerdani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yassineZerdani/stylistic/issues"
+  },
+  "homepage": "https://github.com/yassineZerdani/stylistic#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  }
+}
